@@ -29,6 +29,7 @@ public class BaseCategoryController {
        List<BaseCategory1> baseCategory1 =baseGetCategory1.selectGetCategory1();
         return Result.ok(baseCategory1);
     }
+    //111
     @RequestMapping("getCategory2/{category1Id}")
     public Result getCategory2(@PathVariable Long category1Id){
         List<BaseCategory2> baseCategory2 =baseGetCategory1.selectGetCategory2(category1Id);
